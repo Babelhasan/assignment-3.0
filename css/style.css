@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{}
+
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.project-link{
+    text-align: center;
+    /* display: inline; */
+}
+.project-link li{
+    list-style: none;
+    /* float: left; */
+    display: inline;
+}
+.project-link li a{
+    background-color: #28b1f5;
+    /* height: 10px; */
+    text-decoration: none;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 38%;
+    box-shadow: 0px 0px 5px;
+    color: #121217;
+}
